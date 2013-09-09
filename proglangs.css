@@ -1,1 +1,27 @@
-proglangs.css
+#top5 {
+	color: grey;
+}
+
+#top4 {
+	color: blue;
+}
+
+#top3 {
+	color: pink;
+}
+
+#top2 {
+	color: brown;
+}
+
+#top1 {
+	color: black;
+}
+
+
+
+
+.listestil {
+	list-style-type: none;
+	text-align: center;
+}
