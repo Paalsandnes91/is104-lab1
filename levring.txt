@@ -1,0 +1,3 @@
+Git side: https://github.com/Paalsandnes91/is104-lab1
+
+Git Clone url: https://github.com/Paalsandnes91/is104-lab1.git
