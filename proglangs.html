@@ -14,7 +14,7 @@
  
  <!-- Laste inn Javascript biblioteker her -->
  <!-- Fjern kommentarmerkene for å inkludere jquery biblioteket (sist hentet 23.08.2013) -->
- <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+ <script type="text/javascript" src="proglangs.js"></script>
  
  
  <!-- Inkludere CSS her -->
@@ -25,7 +25,7 @@
 <body>
 
 
-	<ul class="listestil">
+	<ul id="liste"class="listestil">
 		<li id="top5">ActionScript</li>
 		<li id="top5">AppleScript</li>
 		<li id="top5">Asp</li>
@@ -51,7 +51,13 @@
 	</ul>
 
 
-<select>
+
+<hr></hr>
+<div align="center">
+<form>
+		<label for="realmadrid">Velg deg et språk:</label>
+		<select name="velgrealmadrid" id="realmadrid" onChange="skrivtilboks(this)">
+
 <option value="ActionScript">Actionscript</option>
 <option value="AppleScript">AppleScript</option>
 <option value="Asp">Asp</option>
@@ -75,6 +81,11 @@
 <option value="Scheme">Scheme</option>
 <select>
 
+</form>
 
+<span id="skrivtilboks">Du har ikke valgt noe programmeringsspråk enda. Velg ett fra listen</span>
+</div>
+
+		
 </body>
 </html>
