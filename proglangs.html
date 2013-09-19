@@ -21,11 +21,11 @@
 </head>
 <body>
 
-	<ul class="navbar">
-  <li><a href="index.html">Hjem</a>
-  <li><a href="musings.html">Kronologisk</a>
-  <li><a href="town.html">Hierarkisk</a>
-  <li><a href="links.html">Alfabetisk</a>
+<ul  class="navbar">
+  <li><a href="proglangs.html">Hjem</a>
+  <li><a onclick=" popupboks()" href="proglangs.html">Kronologisk</a>
+  <li><a onclick=" popupboks()" href="proglangs.html">Hierarkisk</a>
+  <li><a onclick=" popupboks()" href="proglangs.html">Alfabetisk</a>
 </ul>
 
 
@@ -61,8 +61,8 @@
 
 <div align="center">
 <form>
-		<label for="realmadrid">Velg deg et språk:</label>
-		<hr>
+		<label for="realmadrid">Velg deg et programeringsspråk:</label>
+		
 		<select name="velgrealmadrid" id="realmadrid" onChange="skrivtilboks(this)">
 
 <option value="ActionScript">Actionscript</option>
@@ -87,7 +87,7 @@
 <option value="Scala">Scala</option>
 <option value="Scheme">Scheme</option>
 <select>
-<span id="skrivtilboks">Du har ikke valgt noe programmeringsspråk enda. Velg ett fra listen</span>
+
 </form>
 <div align="center">
 
@@ -96,8 +96,14 @@
 	<h1>Programmeringsspråk, hva er det?</h1>	
 
 	<p> 
+<span id="skrivtilboks">Velkommen til en mystisk verden av programmeringsspråk!</span>
 
-	<p>
+		<div class="footerArea">
+
+		<hr>
+	<p> © Pål Sandnes / 19.09.2013
+		</div>
+
 
 
 </body>
