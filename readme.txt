@@ -1,4 +1,4 @@
-Kontrollspørsmål
+Kontrollspørsmål LAB:1
 
 
 0)
@@ -43,4 +43,12 @@ Hvike brukbarhetsproblemer er det med den siste versjonen av implementeringen i
 deloppgaven 2? Nevn gjerne hvordan man kunne løse problemene. (Tips: overlapp mellom forskjellige grafiske elementer og tilfelle hvor man ønsker å selektere det første navnet på programmeringsspårket i listen)
 
 - Kunne ha utfylt siden mer, hatt en overskrift og tekst om hva denne siden er til osv. 
+
+KONTROLL SPØRSMÅL LAB:2
+
+Forklar hvilken deler av din applikasjon så langt, implementerer de forskjellige lagene i MVCarkitekturen. MVC står får ModelViewController, som til norsk kan oversettes til ModellPresentasjonKontorller?
+
+- I vårt tillfelle er HTML=model, CSS=veiw og JavaScriptController
+HTML inneholder grunndataene, CSS som bestemmer utseende mens JS manipulerer begge deler 
+
 
