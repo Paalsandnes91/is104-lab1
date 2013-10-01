@@ -1,4 +1,5 @@
 is104-lab1
 ==========
 
-Skole
+Skoleprosjekt IS-107 
+Av Pål Sandnes

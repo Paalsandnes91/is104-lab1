@@ -8,5 +8,5 @@ function skrivtilboks(selectobj){
 
 
 function popupboks(beskjed){
-	alert("På grunn av min økonomiske situasjon, stopper det her! - Pål")
+	alert("sorry.....")
 }
