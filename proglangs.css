@@ -1,3 +1,6 @@
+ /* Ved bruk av CSS har jeg endret layouten på websiden, har også endret farger på skrift. her går det i grått og hvit! */
+
+
 body {
     padding-left: 11em;
     font-family: Georgia, "Calibri",
@@ -55,7 +58,7 @@ body {
  	{color: white;}
 
 
-#listestil {
+#listestil { 
 	list-style-type: none;
 	text-align: center;
 }
