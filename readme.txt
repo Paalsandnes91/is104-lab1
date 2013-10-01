@@ -31,11 +31,8 @@ Med hvilken HTML teknikk og designløsning løser Wikipedia
 - Wikipedia har brukt ustrukturerte linjer(?)(punkter i stedenfor nummerering) rangertert dem alfabetisk. Man kan velge og putte dem i kataloger også selv. 
 
 4)
-Ved å søke på WWW finn ut selv og forklar kort hva som er hovedforskjeller mellom et <div> og et <span> element (tagg) i HTML.
 
-- <Span>:En tag som ofte brukes i forbindelse med CSS. Teksten som ligger mellom <SPAN>-taggene gis en eller annen formattering. <SPAN>-taggene bryter ikke teksten, slik som <DIV>-taggen gjør
-<div>En tag som ofte brukes i forbindelse med CSS og posisjonering. Teksten som ligger mellom <DIV>-taggene gis en eller annen formattering.
-
+Forskjellen er at en -tag formaterer ikke noe av inholdet uten stildefinisjoner mens en tag setter inn et linjebrudd
 
 
 5)
@@ -46,7 +43,8 @@ deloppgaven 2? Nevn gjerne hvordan man kunne løse problemene. (Tips: overlapp m
 
 KONTROLL SPØRSMÅL LAB:2
 
-Forklar hvilken deler av din applikasjon så langt, implementerer de forskjellige lagene i MVCarkitekturen. MVC står får ModelViewController, som til norsk kan oversettes til ModellPresentasjonKontorller?
+Forklar hvilken deler av din applikasjon så langt, implementerer de forskjellige lagene i MVC
+arkitekturen. MVC står får ModelViewController, som til norsk kan oversettes til ModellPresentasjonKontorller?
 
 - I vårt tillfelle er HTML=model, CSS=veiw og JavaScriptController
 HTML inneholder grunndataene, CSS som bestemmer utseende mens JS manipulerer begge deler 
