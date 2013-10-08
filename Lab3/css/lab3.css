@@ -2,6 +2,14 @@
 	color: grey;
 	font-size: 2em;
 
+}
 
+.horistontal {
+	color: blue;
+	font-weight:bold;
+}
 
+.vertikal {
+	color:purple;
+	font-weight:bold;
 }

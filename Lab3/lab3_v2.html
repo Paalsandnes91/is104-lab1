@@ -5,6 +5,7 @@
 	<title>Hendelser med jQuery</title>
 	<!-- Husk å legge til CSS filen din her" -->
 	<script src="js/jquery-1.8.1.js"></script>
+	<link rel="stylesheet" href="css/lab3.css" type ="text/css" />
     <script>
 	
 	$(function() {
@@ -33,11 +34,16 @@
 		*/
 			// Skriv koordinatene ut til console basert på lab3_v1
 			// oppgave 2 a) besvares her
-		   
+		   console.log ("(x,y) = ("+mouse.x+","+mouse.y+")");
 			// Her skrives koordinatene ut til en <span> node
 			// Man skriver til innerHTML og også legger på stil (farge osv.)
 			// oppgave 2 b) besvares her
-			
+			$("#x").html( function() { return  mouse.x } );
+			$("#y").html( function() { return  mouse.y } );
+
+			$("#x").addClass("horistontal");
+			$("#y").addClass("vertikal");
+
 			return false;
 		});
 	}); 
@@ -54,5 +60,7 @@
 	</p>
 	<canvas id="my_canvas" width="200" height="200"></canvas>
 	<!-- Oppgaveløsning skal implementeres her -->
+	<p>Avstanden fra den venstre kanten av Canvas er <span id="x"></span><br></p>
+	<p>Avstanden fra den øverste kanten av Canvas er <span id="y"></span><br></p>
 </body>
 </html>
