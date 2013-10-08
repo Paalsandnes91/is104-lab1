@@ -8,6 +8,8 @@
 	<script src="js/jcanvas.min.js"></script>
 	
 	<!-- Husk å legge til CSS filen din her" -->
+	<link rel="stylesheet" href="css/lab3.css" type ="text/css" />
+
 	
     <script>
 	$(function() {
@@ -41,10 +43,18 @@
 		*/
 			// Skriv koordinatene ut til console basert på lab3_v2
 			// Kopier fra lab2_v2
+
+			console.log ("(x,y) = ("+mouse.x+","+mouse.y+")");
+
 			
 			// Her bare kopieres lignende løsning fra lab3_v2
 			// for å skrive ut til <span> elementnoden
-			
+			$("#x").html( function() { return  mouse.x } );
+			$("#y").html( function() { return  mouse.y } );
+			$("#x").addClass("horistontal");
+			$("#y").addClass("vertikal");
+
+
 			// Dette er kode for deloppgave 2
 			// Her er to metoder kalt opp etter hverandre og begge tilhører objektet canvas
 			canvas.clearCanvas({
@@ -54,6 +64,13 @@
 			})
 			.drawText({
 				// Her besvares deloppgave 2 (se lenken til jCanvas dokumentasjon i oppgaveteksten)
+				fillStyle: "#000", 
+				strokeStyle: "#000", 
+				strokeWidth: 1, 
+				x: mouse.x, y: mouse.y, 
+				font: "8pt Verdana, sans­serif",
+				text: mouse.x + "," + mouse.y
+
 			});
 			
 			return false;
@@ -72,5 +89,7 @@
 	</p>
 	<canvas id="my_canvas" width="200" height="200"></canvas>
 	<!-- Oppgaveløsning skal implementeres her -->
+	<p>Avstanden fra den venstre kanten av Canvas er <span id="x"></span><br></p>
+	<p>Avstanden fra den øverste kanten av Canvas er <span id="y"></span><br></p>
 </body>
 </html>
