@@ -1,4 +1,4 @@
-Kontrollspørsmål LAB:1
+Kontrollspørsmål
 
 
 0)
@@ -31,8 +31,11 @@ Med hvilken HTML teknikk og designløsning løser Wikipedia
 - Wikipedia har brukt ustrukturerte linjer(?)(punkter i stedenfor nummerering) rangertert dem alfabetisk. Man kan velge og putte dem i kataloger også selv. 
 
 4)
+Ved å søke på WWW finn ut selv og forklar kort hva som er hovedforskjeller mellom et <div> og et <span> element (tagg) i HTML.
 
-Forskjellen er at en -tag formaterer ikke noe av inholdet uten stildefinisjoner mens en tag setter inn et linjebrudd
+- <Span>:En tag som ofte brukes i forbindelse med CSS. Teksten som ligger mellom <SPAN>-taggene gis en eller annen formattering. <SPAN>-taggene bryter ikke teksten, slik som <DIV>-taggen gjør
+<div>En tag som ofte brukes i forbindelse med CSS og posisjonering. Teksten som ligger mellom <DIV>-taggene gis en eller annen formattering.
+
 
 
 5)
@@ -41,22 +44,3 @@ deloppgaven 2? Nevn gjerne hvordan man kunne løse problemene. (Tips: overlapp m
 
 - Kunne ha utfylt siden mer, hatt en overskrift og tekst om hva denne siden er til osv. 
 
-KONTROLL SPØRSMÅL LAB:2
-
-Forklar hvilken deler av din applikasjon så langt, implementerer de forskjellige lagene i MVC
-arkitekturen. MVC står får ModelViewController, som til norsk kan oversettes til ModellPresentasjonKontorller?
-
-- I vårt tillfelle er HTML=model, CSS=veiw og JavaScriptController
-HTML inneholder grunndataene, CSS som bestemmer utseende mens JS manipulerer begge deler 
-
-KONTROLL SPØRSMÅL LAB:3 
-
-0) Hva er fordelen med et eksisterende JavaScript bibliotek som jQuery i motsetning til åskrive en “rå” JavaScript for dynamisk endring av HTML sider?
-
-1) Les denne artikkelenhttp://www.ibm.com/developerworks/web/library/wahtmlmark/index.html og svar på følgendespørsmål: Hva er sterke sider til HTML/CSS og hva er sterke sider til Canvas? I hvilkesituasjoner er det meningsfult å bruke Canvas?
-
-2) Hvilken grafisk presentasjonsmåte (se Innledning til denne oppgaven) hadde du sagt atHTML5 Canvas representerer? Forklar.
-
-3) EKSTRA (bare for de spesielt interesserte): en mangel på resultatet fra deloppgave 2 er athvis man trykker musen nærme kanten, kan man ikke se hele teksten siden den klippes vekkhvis den går utover Canvas grenser; hvordan kunne man “fikse” på det vha. metodene frajCanvas? Lever i lab3_v4.html.
-
-X) Hvis du fikk hjelp til å gjennomføre denne oppgaven av noen, samarbeidet med noen, oppginavn på disse personene. Oppgi også ca. tid det tok deg for å gjennomføre denne oppgaven
